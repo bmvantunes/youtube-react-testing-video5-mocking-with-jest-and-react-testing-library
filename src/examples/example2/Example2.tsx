@@ -26,7 +26,7 @@ export const columns = [
 ];
 
 export const rows = [
-  { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
+  { id: 1, lastName: 'XXXXXXWWWWW', firstName: 'Jon', age: 35 },
   { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
   { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
   { id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
@@ -52,7 +52,6 @@ export function Example2({ onMoney }: Example2Props) {
           columns={columns}
           pageSize={5}
           checkboxSelection
-          disableSelectionOnClick
         />
       </div>
     </div>

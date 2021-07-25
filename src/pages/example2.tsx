@@ -4,7 +4,11 @@ export default function Example2Page() {
   return (
     <div>
       <h1>Hello YouTube - AgGrid Example!</h1>
-      <Example2 />
+      <Example2
+        onMoney={(money) => {
+          alert(money);
+        }}
+      />
     </div>
   );
 }
