@@ -1,4 +1,4 @@
-import { columns, Example2, rows } from './Example2';
+import { Example2, rows } from './Example2';
 import { fireEvent, render, screen } from '@testing-library/react';
 import { mocked } from 'ts-jest/utils';
 import { DataGrid } from '@material-ui/data-grid';
